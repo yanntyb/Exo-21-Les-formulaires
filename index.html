@@ -5,39 +5,49 @@
     <title>Title</title>
 </head>
 <body>
-    <div>
-        <label for="texte">texte</label>
-        <input type="text" id="texte">
-    </div>
-    <div>
-        <label for="mdp">mdp</label>
-        <input type="password" id="mdp">
-    </div>
-    <div>
-        <label for="date">date</label>
-        <input type="date" id="date">
-    </div>
-    <div>
-        <label for="couleur">couleur</label>
-        <input type="color" id="couleur">
-    </div>
-    <div>
-        <label for="option">option</label>
-        <select name="selection" id="option">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-            <option value="10">10</option>
-        </select>
-    </div>
-    <div>
-        <input type="submit" value="envoyer" name="user_submit">
-    </div>
+    <form>
+        <div>
+            <label for="texte">texte</label>
+            <input type="text" id="texte">
+        </div>
+        <div>
+            <label for="mdp">mdp</label>
+            <input type="password" id="mdp">
+        </div>
+        <div>
+            <label for="date">date</label>
+            <input type="date" id="date">
+        </div>
+        <div>
+            <label for="couleur">couleur</label>
+            <input type="color" id="couleur">
+        </div>
+        <div>
+            <label for="option">option</label>
+            <select name="selection" id="option">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+        <div>
+            <input type="radio" name="sex" value="homme">Homme
+            <input type="radio" name="sex" value="femme">Femme
+            <input type="radio" name="sex" value="X">X
+        </div>
+        <div>
+            <input type="submit" value="envoyer" name="user_submit">
+        </div>
+        <div>
+            <input type="reset" value="reset">
+        </div>
+    </form>
 </body>
 </html>
